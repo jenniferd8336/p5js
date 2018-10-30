@@ -1,0 +1,90 @@
+var centerX
+var centerY
+
+function setup(){
+createCanvas(500, 500);
+background(0);
+centerX=100
+centerY=100
+
+}
+function draw() {
+background(0);
+//stars
+textSize(30)
+fill(153,0, 204)
+text("*", centerX+100, centerY)
+text("*", centerX+100, centerY+100) 
+text("*", centerX+134, centerY+224)
+text("*", centerX+242, centerY+74)
+text("*", centerX+242, centerY-25)
+text("*", centerX+245, centerY+34)
+text("*", centerX+350, centerY+150)
+text("*", centerX+50, centerY+150)
+text("*", centerX-154, centerY+113)
+text("*", centerX-25, centerY-50)
+text("*", centerX-75, centerY+50)
+
+line(235, 230, 265, 230)
+//road
+rect(0, 350, 500, 500)
+
+//ghost
+fill(255)
+ellipse(250, 250, 100, 150)
+strokeWeight(0)
+fill(0, 0, 255)
+ellipse(235, 210, 10, 10)
+ellipse(265, 210, 10, 10)
+strokeWeight(2)
+line(235, 230, 265, 230)
+
+//moon
+fill(153,0, 204)
+ellipse(75, 75, 100, 100)
+
+centerX++
+
+}
+
+
+
+
+
+
+
+
+  /*createCanvas(500, 500);
+//fill(random(0, 100, 200))
+//ghost
+//moon
+//stars
+background(0);
+centerX++
+centerX=100
+centerY=100
+ellipse(235,210, 10, 10)
+ellipse(250, 250, 100, 150)
+ellipse(265, 210, 10, 10)
+ellipse(75, 75, 100, 100)
+fill(random)
+function draw() {
+function setup(){
+line(235, 230, 265, 230)
+rect(0, 350, 500, 500)
+strokeWeight(1)
+/*text("*", centerX+100, centerY)
+text("*", centerX+100, centerY+100) 
+text("*", centerX+134, centerY+224)
+text("*", centerX+242, centerY+74)
+text("*", centerX+242, centerY-25)
+text("*", centerX+245, centerY+34)
+text("*", centerX+350, centerY+150)
+text("*", centerX+50, centerY+150)
+text("*", centerX-154, centerY+113)
+text("*", centerX-25, centerY-50)
+text("*", centerX-75, centerY+50)
+textSize(30)
+var centerX
+var centerY
+}*/
